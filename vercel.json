@@ -10,10 +10,5 @@
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/build/$1"
-    }
-  ]
+  "installCommand": "npm install --legacy-peer-deps"
 }
